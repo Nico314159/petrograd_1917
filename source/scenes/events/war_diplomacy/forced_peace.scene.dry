@@ -1,7 +1,7 @@
 title: A Forced Peace
 subtitle: The front has collapsed, and the Germans are at the gates of the capital...
 new-page: true
-view-if: (northern_progress <= -4 or western_progress < -4 or southwestern_progress < -5 or romanian_progress < -5 or caucasus_progress < -5 or northern_front_soldiers <= 0 or western_front_soldiers <= 0 or southwestern_front_soldiers <= 0) and not is_peace and not is_armistice
+view-if: (northern_progress <= -4 or western_progress < -4 or southwestern_progress < -5 or romanian_progress < -5 or caucasus_progress < -5 or northern_front_soldiers <= 0 or western_front_soldiers <= 0 or southwestern_front_soldiers <= 0) and not is_peace and not is_armistice and not allied_victory
 max-visits: 1
 tags: event
 
